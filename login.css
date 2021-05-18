@@ -1,19 +1,22 @@
 
-body {
-    background-color: gold;
+.titteln {
+  font-style: italic;
+  text-align:center;
+  
 }
-
 
 .form-container{
-    position: absolute;
-    right: 150px;
-    left: 500px;
-    width: 200px;
-    height: 300px;
-    border: 10px solid #fff;
-    background: #fff;
-    box-shadow: 0px 0px 10px 0px;
-    top: 15vh;
-    border-radius: 10px;
+  position: absolute;
+  top: 15px;
+  background: #a8a8df;
+  padding: 25px;
+  border-radius: 15px;
+  color:#dddddd;
 }
 
+@media only screen and (max-width: 678px){
+  bg {
+      background-size: 300%;
+  }
+}
+© Amanuel 2021 GitHub, Inc.
